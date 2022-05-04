@@ -13,6 +13,7 @@ import {
   BsCheckCircleFill,
   BsXCircleFill,
   BsFillTrashFill,
+  BsGithub
 } from "react-icons/bs";
 import {
   SegmentedControl,
@@ -52,6 +53,19 @@ function App() {
             gradient={{ from: "teal", to: "lime", deg: 105 }}
           >
             Codon Chart
+          </Button>
+          <br/>
+          <Button
+            leftIcon={<BsGithub size={20} />}
+            component="a"
+            href="https://github.com/lukeh990/RNA-Messages"
+            target="_blank"
+            rel="noopener noreferrer"
+            variant="gradient"
+            gradient={{ from: 'dark', to: 'gray' }}
+            style={{marginTop: "1em"}}
+          >
+            Github Repo
           </Button>
           <br />
           <h3>Versions</h3>
