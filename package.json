@@ -10,7 +10,7 @@
   "dependencies": {
     "@mantine/core": "^3.6.9",
     "@mantine/hooks": "^3.6.9",
-    "coded-message-system-message-processor": "file:./Processor/coded-message-system-message-processor-2.0.2.tgz",
+    "coded-message-system-message-processor": "file:./Processor/coded-message-system-message-processor-2.0.4.tgz",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-icons": "^4.3.1"
